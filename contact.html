@@ -8,7 +8,7 @@
     <link rel="Shortcut icon" href="https://www.wikipedia.org/static/favicon/wikipedia.ico">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--To make the site mobile compatible-->
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
 
@@ -51,20 +51,28 @@
     </header>
     <div>
         <form action="" method="post">
-            <label for="type your email"> Email: </label>
-            <input type="email" required>
+            <div class="my-form-div">
+                <label for="type your email"> Email: </label>
+                <input type="email" required>
+            </div>
 
-            <label for="your-input"> Telephone: </label>
-            <input id="type your telephone number" type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+            <div class="my-form-div">
+                <label for="your-input"> Telephone: </label>
+                <input id="type your telephone number" type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+            </div>
 
-            <label> Message: </label>
-            <textarea maxlength="240" required></textarea>
+            <div class="my-form-div">
+                <label> Message: </label>
+                <textarea maxlength="240" required></textarea>
+            </div>
+            <div class="my-form-div">
+                <input type="submit" value="Send message">
+            </div>
 
-            <input type="submit" value="Send message">
         </form>
     </div>
     <div>
-        <address>
+        <address class="my-form-div">
             Email address <a href="mailto:Jerrinm@gmail.com" aria-label="My email id">Jerrinm@gmail.com</a> <br>
             Mobile number <a href="tel: +14407779408" aria-label="My telephone number"> +14407779408</a> <br>
 
