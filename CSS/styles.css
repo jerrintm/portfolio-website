@@ -1,7 +1,7 @@
 :root {
-  $primary-color: #357b70;
-  $secondary-color: #e0b354;
-  $dark-grey: #2b2b2b;
+  --primary-color: #357b70;
+  --secondary-color: #e0b354;
+  --dark-grey: #2b2b2b;
 }
 
 
@@ -24,7 +24,7 @@ Secondary Color (Orange): #e0b354;
  
  
  a {
-  color: $primary-color;
+  color: --primary-color;
 }
 a:visited {
   /* visited link */
@@ -206,7 +206,7 @@ body {background-color:green; margin-top: 3.0em;
   /* takes the font from the outer container */
   font-family: inherit;
   /* styles the button */
-  background-color: $primary-color;
+  background-color: var(--primary-color);
   color: white;
   text-decoration: none;
   padding: 10px;
