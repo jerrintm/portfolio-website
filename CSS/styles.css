@@ -6,7 +6,7 @@
 
 
 body
-{background-color: lightblue;
+{background-color: #660c21;
 }
 /*
 body {
@@ -85,7 +85,7 @@ h1 {
   color: blue
 }
  p {
-      color:purple ;
+      color:paleturquoise ;
 	  text-align: left;
       font-size: 24px;
    }
@@ -152,6 +152,7 @@ body {background-color:green; margin-top: 3.0em;
 
 .navigation-list {
   list-style-type: none;   /* removes the dot(bullet point) in front of Home, About, Contact */
+  color: rgb(220, 213, 250)
 }
 
 
@@ -164,7 +165,7 @@ body {background-color:green; margin-top: 3.0em;
                 display: grid;
               } */
 .grid__item {
-  background-color: lightgray;  /*giving a light gray color to the grid containers */
+  background-color: rgb(21, 168, 65);  /*giving a light gray color to the grid containers */
 }
 .grid {
   display: grid;

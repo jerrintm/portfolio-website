@@ -13,7 +13,7 @@
 
 
 body
-{background-color: lightblue;
+{background-color: #660c21;
 }
 /*
 body {
@@ -173,13 +173,14 @@ body {background-color:green; margin-top: 3.0em;
 .navigation-list li {
   display: inline-block;  /* brings the Home, About, Contact in the same line */
   margin-left: 15px;      /* adds space in-between them */
+  
 }
 
 /*.grid {
                 display: grid;
               } */
 .grid__item {
-  background-color: lightgray;  /*giving a light gray color to the grid containers */
+  background-color: rgb(194, 207, 207);  /*giving a light gray color to the grid containers */
 }
 .grid {
   display: -ms-grid;
