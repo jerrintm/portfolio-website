@@ -165,7 +165,7 @@ body {background-color:green; margin-top: 3.0em;
                 display: grid;
               } */
 .grid__item {
-  background-color: rgb(21, 168, 65);  /*giving a light gray color to the grid containers */
+  background-color: rgb(198, 212, 134);  /*giving a light gray color to the grid containers */
 }
 .grid {
   display: grid;
